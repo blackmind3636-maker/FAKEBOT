@@ -5,10 +5,10 @@ let init = 0
 
 const botSay = (data) => {
     return [
-        "halo, perkenalkan saya Xbot. Siapa Anda ?",
-        `halo ${data?.nama}, berapa usia kamu ?`,
-        `Owhh ${data?.usia}, hobi kamu apa ?`,
-        `wowowo sama denganku, aku juga hobi ${data?.hobi}. Apa kamu punya pasangan ?`,
+        "Halo, perkenalkan saya Xbot. Siapa Anda ?",
+        `Halo ${data?.nama}, berapa usia kamu ?`,
+        `Hmm anda bohong 🤪, hobi kamu apa ?`,
+        `Wowowo sama denganku, aku juga hobi ${data?.hobi}. Apa kamu punya pasangan ?`,
         `mantap ${data?.pacar}, nice kalo gitu. thanks ya `,
     ]
 }
@@ -45,7 +45,7 @@ function botDelay(jawabanUser) {
 
 function finishing() {
     pertanyaan.innerHTML = `Arigatou Gozaimasu 😁 ${usersData[0]} udah main ke XBOT
-    kali-kali kita main ${usersData[2]} bareng ya!`
+    kali-kali kita ${usersData[2]} bareng ya!`
     jawaban.value = "siap thanks juga!"
 }
 
